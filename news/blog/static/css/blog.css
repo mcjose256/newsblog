@@ -90,3 +90,25 @@ input[type=submit] {
     font-size:12px;
     color:#666;
 }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #333;  /* Dark background for nav */
+}
+
+nav ul li {
+    margin-right: 20px;  /* Space between links */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;  /* White text for links */
+    padding: 14px 20px;  /* Padding around the links */
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;  /* Hover effect for links */
+}
